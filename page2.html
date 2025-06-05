@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Page 2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: 'Indie Flower', cursive;
+      background: url('image/steps.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: rgb(255, 255, 255);
+      text-align: center;
+    }
+
+    .container {
+      padding: 40px 20px;
+      margin-top: 20vh;
+    }
+
+    /* صورة مربعة صغيرة */
+    .square-img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 15px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+    }
+
+    .question {
+      font-size: 26px;
+      margin-bottom: 40px;
+    }
+
+    .btn {
+      padding: 12px 24px;
+      margin: 10px;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .yes-btn {
+      background-color: #ffffff;
+      color: rgb(0, 0, 0);
+    }
+
+    .yes-btn:hover {
+      background-color: #3b2fe4;
+    }
+
+    .no-btn {
+      background-color: #ffffff;
+      color: rgb(0, 0, 0);
+    }
+
+    .no-btn:hover {
+      background-color: #3b2fe4;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- ✅ الصورة الصغيرة المربعة -->
+    <img src="image/p2.jpeg" alt="Cute box image" class="square-img">
+
+    <div class="question">
+      Do you want to celebrate<br> with me?
+    </div>
+
+    <button class="btn yes-btn" onclick="location.href='yes.html'">Yes ofcc 🙂‍↕️</button>
+    <button class="btn no-btn" onclick="location.href='no.html'">No 🤨</button>
+  </div>
+
+</body>
+</html>

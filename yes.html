@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Yes Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: 'Indie Flower', cursive;
+      background: url('image/steps.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      padding: 40px 20px;
+      margin-top: 5vh;
+    }
+
+    video {
+      width: 90%;
+      max-width: 400px;
+      border-radius: 16px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+      margin-bottom: 30px;
+    }
+
+    .message {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      padding: 12px 26px;
+      font-size: 18px;
+      background-color:  #ffffff;
+      color: rgb(0, 0, 0);
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color:  #ffffff;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- ✅ الفيديو من مجلد image -->
+    <video src="image/HB.mp4" autoplay controls playsinline></video>
+
+
+    <!-- ✅ النص -->
+    <div class="message">
+      It's not enough...
+    </div>
+
+    <!-- ✅ الزر -->
+    <button class="btn" onclick="location.href='page5.html'">One more surprise 💌</button>
+  </div>
+
+</body>
+</html>
